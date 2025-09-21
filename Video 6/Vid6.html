@@ -6,6 +6,46 @@
     <title>SEO and Core Web Vitals</title>
 </head>
 <body>
-    <p>Will Do later</p>
+    <h1>Core Web Vitals</h1>
+    <h2>Cumilative Layout Shift</h2>
+    <p>Refers to how much the page shifts as elements load. <br> 
+    We want to minimize this to ensure a stable and user-friendly experience.<br>
+    A CLS score of less than 0.1 is considered good.<br>
+
+    Imagine this that you were pressing cancel order but the button shifted and you ended up pressing confirm order instead. <br>
+    This is a bad user experience and we want to avoid this.<br>
+    </p>
+    <h2>Larget Contextual paint</h2>
+    <p>The way we focus on things is an interesting science in itself. We have a mental priority of what to notice first <br>
+        LCP measures how long it takes for the largest content element to become visible within the viewport.<br>
+        A good LCP score is 2.5 seconds or less.<br>
+        This is important because it directly impacts user perception of how quickly a page loads.<br>
+        If the main content takes too long to load, users may perceive the site as slow and unresponsive.<br>
+
+        To improve LCP, we can optimize images, use efficient coding practices, and leverage browser caching.<br>
+
+        Say for example you open a blog and the image takes too long to load, you might think the site is slow and leave.<br>
+    </p>
+    <h2>First Input Delay</h2>
+    <p>Measures the time from when a user first interacts with a page to the time when the browser is able to respond to that interaction.<br>
+        Basically how quickly the site responds to user input.<br>
+        A good FID score is less than 100 milliseconds.<br>
+        This is crucial for user engagement, as delays in response can lead to frustration and abandonment of the site.<br>
+
+        To improve FID, we can minimize JavaScript execution time, break up long tasks, and optimize event listeners.<br>
+
+        For example, if you click a button and nothing happens for a few seconds, you might get frustrated and leave the site.<br>
+    </p>
+
+    <h1>Lighthouse Report</h1>
+    <p>Lighthouse is an open-source, automated tool for improving the quality of web pages. It provides audits for performance, accessibility, SEO, and more.<br>
+        You can run Lighthouse in Chrome DevTools, from the command line, or as a Node module.<br>
+        It generates a report that highlights areas for improvement and provides actionable insights to enhance the overall user experience.<br>
+
+        For example, it might suggest optimizing images, reducing unused CSS, or improving accessibility features.<br>
+    </p>
+    I Personally love this and did not know about such a tool. Why don't more people use this?
+
+    
 </body>
 </html>
